@@ -20,13 +20,20 @@ export default class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">I'm Beniyam Mitiku.</h1>
-            <h3>I'm a U.S. based <span>full stack software developer</span>, <span>engineer </span>with passion for designing better functional user experiance & a <span>coder</span> who focous on writing clean, elegant and efficent code. Let's  <a className="smoothscroll" href="#about">start scrolling </a>
-            and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+    <h3>
+        I'm a U.S.-based <span>Software Developer & Cloud Engineer</span> with 
+        <span> 7+ years of experience</span> in building enterprise-grade applications, 
+        optimizing cloud infrastructure, and integrating scalable solutions. 
+        I specialize in <span>.NET, C#, Azure, PowerApps</span>, and modern web technologies 
+        to create efficient, secure, and user-friendly applications. 
+        Let's <a className="smoothscroll" href="#about">start scrolling</a> to learn more
+        <a className="smoothscroll" href="#about"> about me</a>.
+    </h3>
             <hr />
             <ul className="social">
-              <li><a href="https://www.facebook.com/biniyam1"><i className="fa fa-facebook" /></a></li>
-              <li><a href="https://gitlab.com/mitikubeniyam25"><i className="fab fa-gitlab" /></a></li>
-              <li><a href="https://www.linkedin.com/in/beniyam-mitiku-60816660/"><i className="fa fa-linkedin" /></a></li>
+              {/*<li><a href="https://www.facebook.com/biniyam1"><i className="fa fa-facebook" /></a></li>
+             {/*<li><a href="https://gitlab.com/mitikubeniyam25"><i className="fab fa-gitlab" /></a></li>*/}
+              <li><a href="https://www.linkedin.com/in/beniyam-m-60816660/"><i className="fa fa-linkedin" /></a></li>
               
             </ul>
           </div>

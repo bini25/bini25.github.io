@@ -20,24 +20,24 @@ export default class About extends Component {
                           <h2>Contact Details</h2>
                           <p className="address">
                             <span>Beniyam Mitiku</span><br />
-                            <span>3910 Tynewick dr<br />
-                              silver spring, MD 20906 US
+                            <span>
+                              Silver Spring, MD 20904 US
                             </span><br />
                             <span>(240)-491-7665</span><br />
                             <span>mitikubeniyam25@gmail.com</span>
                           </p>
                         </div>
                         <div className="columns download">
-                          <p>
-                          <a href="BMresume" target="_blank" rel="noopener noreferrer" download>
-                       <button>
-                          <i className="fa fa-download"  />
-                                Download Resume
-                         </button>
-                      </a>
-                            {/*<a href="BMresume" className="button"><i className="fa fa-download" />Download Resume</a>*/}
-                          </p>
-                        </div>
+  <p>
+    <a href="/BMresume.pdf" target="_blank" rel="noopener noreferrer" download="BMresume.pdf">
+      <button>
+        <i className="fa fa-download" />
+        Download Resume
+      </button>
+    </a>
+  </p>
+</div>
+
                       </div> {/* end row */}
                     </div> {/* end .main-col */}
                   </div>

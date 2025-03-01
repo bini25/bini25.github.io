@@ -284,7 +284,65 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-
+/* Skills Grid */
+/* Fully Isolate This Section */
+.custom-skills-section {
+   margin-top: 40px;
+   font-size: 16px; /* Reset font size */
+ }
+ 
+ /* Custom Skills Grid */
+ .custom-skills-grid {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 12px;
+   margin-top: 10px;
+ }
+ 
+ /* Custom Skill Badges */
+ .custom-skill-badge {
+   background-color: #222;
+   color: white;
+   padding: 10px 14px;
+   border-radius: 8px;
+   font-size: 14px;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   transition: 0.3s ease-in-out;
+ }
+ 
+ /* Ensure Icons Display Correctly */
+ .custom-skill-badge i {
+   font-size: 16px !important; /* Ensures icons render properly */
+ }
+ 
+ /* Hover Effect */
+ .custom-skill-badge:hover {
+   background-color: #007BFF;
+   transform: scale(1.05);
+   cursor: pointer;
+ }
+ 
+ /* Custom Skills Categories */
+ .custom-skills-categories div {
+   background: #f5f5f5;
+   padding: 12px;
+   margin-top: 10px;
+   border-radius: 8px;
+   font-size: 16px;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+ }
+ 
+ /* Fix Icons in Categories */
+ .custom-skills-categories i {
+   color: #007BFF;
+   font-size: 18px !important;
+ }
+ 
 .bars {
 	width: 95%;
 	float: left;
@@ -423,7 +481,13 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 48px;
    color: #95A3A3;
 }
-
+.portfolio-item img {
+   width: 100%;  /* Ensures images fit their containers */
+   height: 250px; /* Set a fixed height to keep alignment */
+   object-fit: cover; /* Prevents stretching */
+ }
+ 
+ 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {

@@ -9,13 +9,13 @@ export default class Footer extends Component {
       <div className="row">
         <div className="twelve columns">
           <ul className="social-links">
-          <li><a href="https://www.linkedin.com/in/beniyam-mitiku-60816660/"><i className="fa fa-linkedin" /></a></li>
-            <li><a href="https://www.facebook.com/biniyam1"><i className="fa fa-facebook" /></a></li>
+          <li><a href="https://www.linkedin.com/in/beniyam-m-60816660/"><i className="fa fa-linkedin" /></a></li>
+           {/* <li><a href="https://www.facebook.com/biniyam1"><i className="fa fa-facebook" /></a></li> */}
            
           </ul>
           <ul className="copyright">
-            <li>© Copyright 2020 Bini</li>
-            <li>Design by Beniyam </li>   
+            <li>© Copyright 2025 Bini</li>
+            <li>Design by Bini </li>   
           </ul>
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>

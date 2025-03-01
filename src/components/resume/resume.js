@@ -1,104 +1,139 @@
 import React, { Component } from 'react';
+
 export default class Resume extends Component {
   render() {
     return (
       <React.Fragment>
-      { <section id="resume">
-        {/* Education
-      ----------------------------------------------- */}
-        <div className="row education">
-          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
-          </div>
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">
-                <h3> Towson University </h3>
-                <p className="info">B.S. in computer science <span>•</span> <em className="date">May 2017</em></p>
-                <p>
-                  
-                </p>
+        <section id="resume">
+          
+          {/* Education Section */}
+          <div className="row education">
+            <div className="three columns header-col">
+              <h1><span>Education</span></h1>
+            </div>
+            <div className="nine columns main-col">
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Towson University</h3>
+                  <p className="info">B.S. in Computer Science <span>•</span> <em className="date">May 2017</em></p>
+                </div>
               </div>
-            </div> {/* item end */}
-            <div className="row item">
-              <div className="twelve columns">
-                <h3></h3>
-                <p className="info"><span></span> <em className="date"></em></p>
-                <p>
-                 </p>
-              </div>
-            </div> {/* item end */}
-          </div> {/* main-col end */}
-        </div> {/* End Education */}
-        {/* Work
-      ----------------------------------------------- */}
-        <div className="row work">
-          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            </div>
           </div>
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">
-                <h3>One-To-Many Solutions</h3>
-                <p className="info">Senior Web developer <span>•</span> <em className="date">  Feburary 2018 - Present</em></p>
-                <p>
-                •	Effectively worked on coding of custom WordPress theme and template files using HTML, CSS, PHP, and Bootstrap 3 framework.
-•	Administered project collaboration; solely responsible for digital workflow, backups, and project management.
-•	Designed and developed GUI for applications and modules, using JavaScript
-•	Designed and maintained intranet and Internet website, provided technical support in creating content areas; built on-line forms and connected them to databases. 
-•	Participated and designed responsive websites to accommodate mobile platform.
-•	Built and created GUI and also used scripting languages like PHP to interact with database on server-side development
 
-                </p>
-              </div>
-            </div> {/* item end */}
-            <div className="row item">
-              <div className="twelve columns">
-                <h3>PayPal</h3>
-                <p className="info">Java Developer <span>•</span> <em className="date">May 2017 - December 2018</em></p>
-                <p>
-                •	Designed UI using HTML, CSS and JavaScript.
-•	Instantiated business objects with IOC pattern using spring framework and for Dependency Injection.
-•	Implemented Object-relation mapping in the persistence layer using Hibernate frame work in conjunction with spring functionality.
-•	Worked on writing Java code for extracting backend data from the main frames.
-•	Used Maven to manage dependencies in the application and deploy it on Apache Tomcat server. 
-•	Used Oracle database to maintain the abstracts and references.
-•	Used Agile process for tracking and developing the application.
+          {/* Work Experience Section */}
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1><span>Work Experience</span></h1>
+            </div>
+            <div className="nine columns main-col">
 
-                </p>
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Aptive Resources</h3>
+                  <p className="info">Software Developer <span>•</span> <em className="date">May 2022 – Present</em></p>
+                  <p>
+                    - Developing and maintaining C# web applications for the Department of Veterans Affairs.<br/>
+                    - Building and managing Azure Functions for job advertisement automation.<br/>
+                    - Designing and optimizing SharePoint, PowerApps, and ASP.Net Core solutions.<br/>
+                    - Leading the redesign of enterprise web pages using OpenText TeamSite CMS.<br/>
+                  </p>
+                </div>
               </div>
-            </div> {/* item end */}
-          </div> {/* main-col end */}
-        </div> {/* End Work */}
-        {/* Skills
-      ----------------------------------------------- */}
-        <div className="row skill">
-          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Chickasaw Nation Industries</h3>
+                  <p className="info">Application Development Analyst <span>•</span> <em className="date">April 2021 – May 2022</em></p>
+                  <p>
+                    - Developed business reports and analytics solutions for the Indian Health Service.<br/>
+                    - Created system workflows, collaborated with IT teams, and optimized database performance.<br/>
+                    - Ensured compliance with audit and security requirements.<br/>
+                  </p>
+                </div>
+              </div>
+
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Alesig Consulting LLC</h3>
+                  <p className="info">Web Applications Developer <span>•</span> <em className="date">Oct 2020 – April 2021</em></p>
+                  <p>
+                    - Enhanced and debugged PHP and Java websites for the Department of Labor.<br/>
+                    - Designed SharePoint business solutions and implemented Power BI dashboards.<br/>
+                    - Ensured 508 compliance for web accessibility.<br/>
+                  </p>
+                </div>
+              </div>
+
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>One-to-Many Solutions</h3>
+                  <p className="info">Web Developer <span>•</span> <em className="date">Feb 2018 – March 2020</em></p>
+                  <p>
+                    - Built custom WordPress themes and templates using HTML, CSS, and PHP.<br/>
+                    - Developed responsive, mobile-friendly websites and web applications.<br/>
+                    - Maintained SharePoint sites and worked with Active Directory.<br/>
+                  </p>
+                </div>
+              </div>
+
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>PayPal</h3>
+                  <p className="info">Java Software Developer <span>•</span> <em className="date">May 2017 - Dec 2017</em></p>
+                  <p>
+                    - Developed UI components with HTML, CSS, and JavaScript.<br/>
+                    - Built enterprise applications using Spring Framework, Hibernate, and SOAP web services.<br/>
+                    - Used Maven for dependency management and deployed on Apache Tomcat.<br/>
+                  </p>
+                </div>
+              </div>
+
+            </div>
           </div>
-          <div className="nine columns main-col">
-            <p>
-            </p>
-            <div className="bars">
-              <ul className="skills">
-              <li><span className="bar-expand css" /><em>CSS/HTML5</em></li>
-              <li><span className="bar-expand illustrator" /><em>Javascript/Node.js</em></li>
-              <li><span className="bar-expand jquery" /><em>jQuery</em></li>
-              <li><span className="bar-expand html5" /><em>React</em></li>
-                <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                 <li><span className="bar-expand wordpress" /><em>PHP</em></li>
-                 <li><span className="bar-expand wordpress" /><em>Java</em></li>
-                 <li><span className="bar-expand html5" /><em>SQL</em></li>
-                </ul>
-            </div>{/* end skill-bars */}
-          </div> {/* main-col end */}
-        </div> {/* End skills */}
-      </section>}
-      
+
+   {/* Skills Section */}
+<div className="row custom-skills-section">
+  <div className="three columns header-col">
+    <h1><span>Skills</span></h1>
+  </div>
+
+  <div className="nine columns main-col">
+
+    {/* Full Stack Development */}
+    <h3>Full Stack Development</h3>
+    <div className="custom-skills-grid">
+      <span className="custom-skill-badge"><i className="fab fa-react"></i> React</span>
+      <span className="custom-skill-badge"><i className="fab fa-js"></i> JavaScript</span>
+      <span className="custom-skill-badge"><i className="fab fa-node-js"></i> Node.js</span>
+      <span className="custom-skill-badge"><i className="fas fa-code"></i> C# / .NET</span>
+      <span className="custom-skill-badge"><i className="fab fa-php"></i> PHP</span>
+      <span className="custom-skill-badge"><i className="fas fa-database"></i> SQL Server / MySQL</span>
+      <span className="custom-skill-badge"><i className="fas fa-cloud"></i> Azure Functions</span>
+      <span className="custom-skill-badge"><i className="fas fa-share-square"></i> SharePoint / PowerApps</span>
+    </div>
+
+    {/* Technical Expertise */}
+    <h3>Technical Expertise</h3>
+    <div className="custom-skills-categories">
+      <div><i className="fas fa-paint-brush"></i> <strong>Frontend:</strong> React, TypeScript, HTML, CSS, Bootstrap</div>
+      <div><i className="fas fa-server"></i> <strong>Backend:</strong> C#, .NET Core, PHP, Node.js, ASP.NET</div>
+      <div><i className="fas fa-database"></i> <strong>Databases:</strong> SQL Server, MySQL, MongoDB</div>
+      <div><i className="fas fa-cloud"></i> <strong>Cloud & APIs:</strong> Azure Functions, RESTful APIs, GraphQL, Serverless</div>
+      <div><i className="fas fa-cogs"></i> <strong>CMS & Tools:</strong> OpenText TeamSite, SharePoint, WordPress, Power Automate</div>
+    </div>
+
+  </div>
+</div>
+
+
+
+        </section>
       </React.Fragment>
     );
   }
 }
+
 
 
 
